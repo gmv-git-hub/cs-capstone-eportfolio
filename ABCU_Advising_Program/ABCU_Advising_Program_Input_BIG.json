@@ -1,0 +1,670 @@
+[
+    {
+        "code": "CS078",
+        "title": "Operating Systems II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS004",
+        "title": "Parallel Computing",
+        "prerequisites": [
+            "CS003"
+        ]
+    },
+    {
+        "code": "CS091",
+        "title": "Machine Learning II",
+        "prerequisites": [
+            "CS005",
+            "CS037"
+        ]
+    },
+    {
+        "code": "CS032",
+        "title": "Operating Systems",
+        "prerequisites": [
+            "CS029"
+        ]
+    },
+    {
+        "code": "CS030",
+        "title": "Computer Graphics",
+        "prerequisites": [
+            "CS025"
+        ]
+    },
+    {
+        "code": "CS068",
+        "title": "Computer Networks II",
+        "prerequisites": [
+            "CS029",
+            "CS054"
+        ]
+    },
+    {
+        "code": "CS054",
+        "title": "Discrete Mathematics II",
+        "prerequisites": [
+            "CS022"
+        ]
+    },
+    {
+        "code": "CS061",
+        "title": "Deep Learning II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS040",
+        "title": "Machine Learning",
+        "prerequisites": [
+            "CS001",
+            "CS021"
+        ]
+    },
+    {
+        "code": "CS085",
+        "title": "Discrete Mathematics II",
+        "prerequisites": [
+            "CS031"
+        ]
+    },
+    {
+        "code": "CS086",
+        "title": "Compiler Design II",
+        "prerequisites": [
+            "CS013",
+            "CS006"
+        ]
+    },
+    {
+        "code": "CS095",
+        "title": "Computer Networks II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS011",
+        "title": "Big Data Analytics",
+        "prerequisites": [
+            "CS001"
+        ]
+    },
+    {
+        "code": "CS081",
+        "title": "Blockchain Technology II",
+        "prerequisites": [
+            "CS073",
+            "CS053"
+        ]
+    },
+    {
+        "code": "CS074",
+        "title": "Cloud Computing II",
+        "prerequisites": [
+            "CS053",
+            "CS027"
+        ]
+    },
+    {
+        "code": "CS082",
+        "title": "Computer Networks II",
+        "prerequisites": [
+            "CS069",
+            "CS049"
+        ]
+    },
+    {
+        "code": "CS021",
+        "title": "Ethics in Computing",
+        "prerequisites": [
+            "CS009"
+        ]
+    },
+    {
+        "code": "CS014",
+        "title": "Data Structures",
+        "prerequisites": []
+    },
+    {
+        "code": "CS028",
+        "title": "Algorithms",
+        "prerequisites": [
+            "CS020",
+            "CS007"
+        ]
+    },
+    {
+        "code": "CS067",
+        "title": "Operating Systems II",
+        "prerequisites": [
+            "CS002"
+        ]
+    },
+    {
+        "code": "CS016",
+        "title": "Discrete Mathematics",
+        "prerequisites": [
+            "CS006",
+            "CS014"
+        ]
+    },
+    {
+        "code": "CS036",
+        "title": "Cybersecurity",
+        "prerequisites": [
+            "CS012"
+        ]
+    },
+    {
+        "code": "CS066",
+        "title": "Human-Computer Interaction II",
+        "prerequisites": [
+            "CS050"
+        ]
+    },
+    {
+        "code": "CS071",
+        "title": "Operating Systems II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS047",
+        "title": "Machine Learning",
+        "prerequisites": [
+            "CS014",
+            "CS032"
+        ]
+    },
+    {
+        "code": "CS087",
+        "title": "Parallel Computing II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS063",
+        "title": "Big Data Analytics II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS057",
+        "title": "Software Engineering II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS094",
+        "title": "Software Engineering II",
+        "prerequisites": [
+            "CS062",
+            "CS075"
+        ]
+    },
+    {
+        "code": "CS098",
+        "title": "Blockchain Technology II",
+        "prerequisites": [
+            "CS082"
+        ]
+    },
+    {
+        "code": "CS055",
+        "title": "Computer Architecture II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS045",
+        "title": "Data Structures",
+        "prerequisites": []
+    },
+    {
+        "code": "CS024",
+        "title": "Deep Learning",
+        "prerequisites": [
+            "CS007",
+            "CS008"
+        ]
+    },
+    {
+        "code": "CS073",
+        "title": "Algorithms II",
+        "prerequisites": [
+            "CS010"
+        ]
+    },
+    {
+        "code": "CS053",
+        "title": "Operating Systems II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS090",
+        "title": "Cybersecurity II",
+        "prerequisites": [
+            "CS057"
+        ]
+    },
+    {
+        "code": "CS050",
+        "title": "Deep Learning",
+        "prerequisites": []
+    },
+    {
+        "code": "CS077",
+        "title": "Software Engineering II",
+        "prerequisites": [
+            "CS055",
+            "CS060"
+        ]
+    },
+    {
+        "code": "CS062",
+        "title": "Natural Language Processing II",
+        "prerequisites": [
+            "CS055",
+            "CS053"
+        ]
+    },
+    {
+        "code": "CS033",
+        "title": "Algorithms",
+        "prerequisites": [
+            "CS030",
+            "CS026"
+        ]
+    },
+    {
+        "code": "CS017",
+        "title": "Ethics in Computing",
+        "prerequisites": [
+            "CS010"
+        ]
+    },
+    {
+        "code": "CS041",
+        "title": "Introduction to Computer Science",
+        "prerequisites": []
+    },
+    {
+        "code": "CS005",
+        "title": "Data Structures",
+        "prerequisites": [
+            "CS002",
+            "CS003"
+        ]
+    },
+    {
+        "code": "CS037",
+        "title": "Deep Learning",
+        "prerequisites": [
+            "CS009"
+        ]
+    },
+    {
+        "code": "CS083",
+        "title": "Web Development II",
+        "prerequisites": [
+            "CS036"
+        ]
+    },
+    {
+        "code": "CS070",
+        "title": "Software Engineering II",
+        "prerequisites": [
+            "CS036"
+        ]
+    },
+    {
+        "code": "CS065",
+        "title": "Operating Systems II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS007",
+        "title": "Computer Graphics",
+        "prerequisites": [
+            "CS006"
+        ]
+    },
+    {
+        "code": "CS048",
+        "title": "Computer Networks",
+        "prerequisites": [
+            "CS013"
+        ]
+    },
+    {
+        "code": "CS006",
+        "title": "Web Development",
+        "prerequisites": [
+            "CS003",
+            "CS004"
+        ]
+    },
+    {
+        "code": "CS035",
+        "title": "Introduction to Computer Science",
+        "prerequisites": [
+            "CS016"
+        ]
+    },
+    {
+        "code": "CS019",
+        "title": "Machine Learning",
+        "prerequisites": [
+            "CS018",
+            "CS013"
+        ]
+    },
+    {
+        "code": "CS046",
+        "title": "Deep Learning",
+        "prerequisites": []
+    },
+    {
+        "code": "CS044",
+        "title": "Computer Architecture",
+        "prerequisites": [
+            "CS001",
+            "CS022"
+        ]
+    },
+    {
+        "code": "CS043",
+        "title": "Operating Systems",
+        "prerequisites": []
+    },
+    {
+        "code": "CS031",
+        "title": "Web Development",
+        "prerequisites": [
+            "CS024",
+            "CS020"
+        ]
+    },
+    {
+        "code": "CS079",
+        "title": "Computer Networks II",
+        "prerequisites": [
+            "CS043"
+        ]
+    },
+    {
+        "code": "CS009",
+        "title": "Compiler Design",
+        "prerequisites": [
+            "CS003"
+        ]
+    },
+    {
+        "code": "CS064",
+        "title": "Compiler Design II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS096",
+        "title": "Big Data Analytics II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS026",
+        "title": "Cloud Computing",
+        "prerequisites": []
+    },
+    {
+        "code": "CS099",
+        "title": "Data Structures II",
+        "prerequisites": [
+            "CS028"
+        ]
+    },
+    {
+        "code": "CS093",
+        "title": "Quantum Computing II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS100",
+        "title": "Quantum Computing II",
+        "prerequisites": [
+            "CS018",
+            "CS015"
+        ]
+    },
+    {
+        "code": "CS059",
+        "title": "Big Data Analytics II",
+        "prerequisites": [
+            "CS043"
+        ]
+    },
+    {
+        "code": "CS027",
+        "title": "Data Structures",
+        "prerequisites": [
+            "CS001"
+        ]
+    },
+    {
+        "code": "CS015",
+        "title": "Cybersecurity",
+        "prerequisites": [
+            "CS005",
+            "CS003"
+        ]
+    },
+    {
+        "code": "CS020",
+        "title": "Ethics in Computing",
+        "prerequisites": [
+            "CS019",
+            "CS013"
+        ]
+    },
+    {
+        "code": "CS001",
+        "title": "Introduction to Computer Science",
+        "prerequisites": []
+    },
+    {
+        "code": "CS084",
+        "title": "Machine Learning II",
+        "prerequisites": [
+            "CS017"
+        ]
+    },
+    {
+        "code": "CS069",
+        "title": "Compiler Design II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS025",
+        "title": "Big Data Analytics",
+        "prerequisites": []
+    },
+    {
+        "code": "CS076",
+        "title": "Human-Computer Interaction II",
+        "prerequisites": [
+            "CS064",
+            "CS046"
+        ]
+    },
+    {
+        "code": "CS008",
+        "title": "Databases",
+        "prerequisites": []
+    },
+    {
+        "code": "CS056",
+        "title": "Discrete Mathematics II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS039",
+        "title": "Computer Networks",
+        "prerequisites": [
+            "CS002"
+        ]
+    },
+    {
+        "code": "CS029",
+        "title": "Cybersecurity",
+        "prerequisites": []
+    },
+    {
+        "code": "CS051",
+        "title": "Cybersecurity II",
+        "prerequisites": [
+            "CS029",
+            "CS043"
+        ]
+    },
+    {
+        "code": "CS018",
+        "title": "Deep Learning",
+        "prerequisites": []
+    },
+    {
+        "code": "CS023",
+        "title": "Machine Learning",
+        "prerequisites": [
+            "CS013",
+            "CS006"
+        ]
+    },
+    {
+        "code": "CS022",
+        "title": "Quantum Computing",
+        "prerequisites": [
+            "CS020"
+        ]
+    },
+    {
+        "code": "CS049",
+        "title": "Computer Networks",
+        "prerequisites": [
+            "CS034"
+        ]
+    },
+    {
+        "code": "CS012",
+        "title": "Cybersecurity",
+        "prerequisites": [
+            "CS005"
+        ]
+    },
+    {
+        "code": "CS089",
+        "title": "Computer Networks II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS060",
+        "title": "Algorithms II",
+        "prerequisites": [
+            "CS044",
+            "CS052"
+        ]
+    },
+    {
+        "code": "CS002",
+        "title": "Mobile App Development",
+        "prerequisites": []
+    },
+    {
+        "code": "CS097",
+        "title": "Quantum Computing II",
+        "prerequisites": [
+            "CS018"
+        ]
+    },
+    {
+        "code": "CS034",
+        "title": "Computer Architecture",
+        "prerequisites": []
+    },
+    {
+        "code": "CS088",
+        "title": "Big Data Analytics II",
+        "prerequisites": [
+            "CS028"
+        ]
+    },
+    {
+        "code": "CS058",
+        "title": "Computer Graphics II",
+        "prerequisites": [
+            "CS036"
+        ]
+    },
+    {
+        "code": "CS080",
+        "title": "Big Data Analytics II",
+        "prerequisites": [
+            "CS026"
+        ]
+    },
+    {
+        "code": "CS010",
+        "title": "Compiler Design",
+        "prerequisites": [
+            "CS004",
+            "CS005"
+        ]
+    },
+    {
+        "code": "CS003",
+        "title": "Artificial Intelligence",
+        "prerequisites": []
+    },
+    {
+        "code": "CS038",
+        "title": "Cloud Computing",
+        "prerequisites": [
+            "CS032",
+            "CS027"
+        ]
+    },
+    {
+        "code": "CS052",
+        "title": "Algorithms II",
+        "prerequisites": [
+            "CS027",
+            "CS003"
+        ]
+    },
+    {
+        "code": "CS072",
+        "title": "Algorithms II",
+        "prerequisites": []
+    },
+    {
+        "code": "CS092",
+        "title": "Human-Computer Interaction II",
+        "prerequisites": [
+            "CS029"
+        ]
+    },
+    {
+        "code": "CS042",
+        "title": "Operating Systems",
+        "prerequisites": [
+            "CS028",
+            "CS015"
+        ]
+    },
+    {
+        "code": "CS013",
+        "title": "Cloud Computing",
+        "prerequisites": [
+            "CS009"
+        ]
+    },
+    {
+        "code": "CS075",
+        "title": "Cloud Computing II",
+        "prerequisites": [
+            "CS001",
+            "CS050"
+        ]
+    }
+]
