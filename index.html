@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets\favicon-32.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Electronic Portfolio (ePortfolio) – Gianmarco Vendramin</title>
+    <!-- Tailwind via CDN for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Barlow -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Apply Barlow across the entire site */
+      body {
+        font-family: "Barlow", sans-serif;
+      }
+    </style>
+
+  </head>
+  <body class="bg-slate-50 leading-relaxed text-slate-800">
+    <!-- Page Banner -->
+    <header
+      class="relative flex items-center justify-center h-64 bg-gradient-to-br from-indigo-500 to-violet-700 text-white shadow-lg"
+    >
+      <div class="text-center px-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-xl mb-4">
+          Professional ePortfolio – Gianmarco Vendramin
+        </h1>
+        <p class="text-lg md:text-xl opacity-90">
+          Southern New Hampshire University - CS-499-11191-M01 Computer Science Capstone 2025 C-3 (May - Jun)
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="max-w-6xl mx-auto py-12 px-6 md:px-8">
+		<section class="prose max-w-3xl mx-auto mb-12">
+			<h2 class="text-3xl font-bold mb-4">Professional Self Assessment</h2>
+			<p>
+			  <!-- 👉 Paste your full self‑assessment narrative here. You can use additional <p>, <h3>, <ul>, etc. -->
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at neque in purus placerat
+			  tincidunt. Suspendisse potenti. Vivamus id ultricies ligula. Integer sed venenatis orci, non efficitur sem.
+			  Proin euismod elit et risus consequat, vitae pulvinar dui aliquam.
+			</p>
+      </section>
+      <section>
+        <h2 class="text-2xl font-bold mb-6 text-indigo-700 text-center">
+          Portfolio resources
+        </h2>
+
+        <!-- Card Grid for resources links -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <!-- Code Review Video -->
+          <a
+            href="https://youtu.be/bJ29PdBD5y4"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-teal-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\video-icon.png"
+			alt="Video Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Code Review Session (Video)</h3>
+            <p class="text-sm opacity-80">
+              Plan for modifying and enhancing the original artifact with a walk-through of critical improvements and best practices.
+            </p>
+          </a>
+
+          <!-- Original Artifact -->
+          <a
+            href="https://github.com/gmv-git-hub/cs-capstone-eportfolio/tree/main/CS300%20Source%20Code"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-amber-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\cpp-icon.png"
+			alt="C++ Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">GitHub Repository</h3>
+			<h3 class="text-xl font-semibold mb-2">Original Artifact</h3>
+            <p class="text-sm opacity-80">
+              Project starting point before refactoring &amp; optimization.
+            </p>
+          </a>
+
+          <!-- Improved Artifact -->
+          <a
+            href="https://github.com/gmv-git-hub/cs-capstone-eportfolio/tree/main/ABCU_Advising_Program"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-rose-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\python-icon.png"
+			alt="Python Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">GitHub Repository</h3>
+			<h3 class="text-xl font-semibold mb-2">Improved Artifact</h3>
+            <p class="text-sm opacity-80">
+              Final project with the three applied improvements as described in the narratives.
+            </p>
+          </a>
+
+          <!-- Narrative 1 -->
+          <a
+            href="assets\M2_NarrativeEnOne.pdf"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-indigo-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\pdf-icon.png"
+			alt="PDF Document Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Narrative - Enhancement One</h3>
+            <p class="text-sm opacity-80">
+              Software design and engineering.
+            </p>
+          </a>
+
+          <!-- Narrative 2 -->
+          <a
+            href="assets\M3_NarrativeEnTwo.pdf"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-purple-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\pdf-icon.png"
+			alt="PDF Document Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Narrative - Enhancement Two</h3>
+            <p class="text-sm opacity-80">
+              Algorithms and data structures.
+            </p>
+          </a>
+
+          <!-- Narrative 3 -->
+          <a
+            href="assets\M4_NarrativeEnThree.pdf"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-lime-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\pdf-icon.png"
+			alt="PDF Document Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Narrative - Enhancement Three</h3>
+            <p class="text-sm opacity-80">
+              Databases.
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-slate-600 text-sm">
+      <p>
+        © <span id="year"></span> Gianmarco Vendramin – Built using GitHub Pages &amp; Tailwind CSS.
+      </p>
+    </footer>
+
+    <script>
+      // Get current year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
