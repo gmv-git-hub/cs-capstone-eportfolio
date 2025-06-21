@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets\favicon-32.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional ePortfolio – Gianmarco Vendramin</title>
+    <!-- Tailwind via CDN for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Barlow -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Apply Barlow across the entire site */
+      body {
+        font-family: "Barlow", sans-serif;
+      }
+    </style>
+
+  </head>
+  <body class="bg-slate-50 leading-relaxed text-slate-800">
+    <!-- Page Banner -->
+    <header
+      class="relative flex items-center justify-center h-64 bg-gradient-to-br from-indigo-500 to-violet-700 text-white shadow-lg"
+    >
+      <div class="text-center px-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight drop-shadow-xl mb-4">
+          Professional ePortfolio – Gianmarco Vendramin
+        </h1>
+        <p class="text-lg md:text-xl opacity-90">
+          Southern New Hampshire University - CS-499-11191-M01 Computer Science Capstone 2025 C-3 (May - Jun)
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="max-w-6xl mx-auto py-12 px-6 md:px-8">
+		<section class="prose max-w-none mx-auto mb-12">
+			<h2 class="text-3xl font-bold mb-4 text-center">Professional Self Assessment</h2>
+			<p>
+				This ePortolio is the culmination of a long journey where I gained significant expertise in the computer science field. Each course taken built one piece at a time, a holistic experience that included multiple sides of this field. Starting from a strong math base, gaining expertise in how algorithms work and the complexity they can carry to more complex subjects such as computer graphics and AI was essential. Another crucial personal improvement of my strengths in programming was to get in touch with multiple languages and tools such as Phyton, Java, C++, Embedded C, Javascript, TypeScript, and assembly. The various languages I learned gave me a broader view of the current technologies in use, their strengths and weaknesses, to quickly understand the correct tool based on the project requirements. On top of that, now the new experience gained in database setup and use has put me in the condition to manage complex projects that use such tools efficiently, understand their language, and follow best practices to avoid misuse that can lead to security problems. For example, I've learned how a NoSQL database works, its idea, and the best application areas of such technology, such as rapidly evolving environments that frequently have unpredictable data models. Knowledge has also been gained in various database technologies, and the importance of choosing them wisely concerning the customer needs; for example, a NoSQL database will be useless if some applications like finance where it is critical to use ACID (Atomic, Consistent, Isolated, and Durable) transactions in the database.<br>
+				The work done in improving the artifact in three steps gave me a comprehensive opportunity to enhance my experience through learning by doing in multiple areas. I've started by accounting for a diverse audience that sees my job by commenting on the code in a way that allows people not accustomed to the used language to understand the underlying logic. Be open to a collaborative environment by sharing low-level details of the artifact so one can understand what has been done and have the possibility to comment on it, even negatively, to take it as a growth and learning opportunity by accepting the indication and moving on with the suggested operations. Also, my professional communication skills improved in that now the material learned permits me to speak about and understand computer science subjects correctly and deliver technically sound opinions in my future career. All of this has improved my communication capability, especially while transferring information to stakeholders with the correct balance between technical concepts without going too deep into details; hence, the message is clear and does not lead to misunderstandings. Various courses of this journey contributed to my growth in solving complex and challenging problems with the correct mindset. For example, when faced with a new and completely different language and toolchain like Android Studio, I was able to navigate to the solution using the correct and pragmatic way to break problems into smaller chunks, analyze them separately, bring them to a solution and then integrate everything in a well working and user-centric application. The course improved my ability to dig and search for well-founded and innovative techniques to be applied to create valuable solutions that target stakeholder needs. For example, in the Emerging Systems Architectures & Technologies course, I solved a complex task of transmitting morse signals with a microcontroller that required the construction of a state machine; however, the efficiency was not what I was expecting, and the state machine has been changed and improved with techniques a bit "outside" of the standard state machines academic definition. Data structures and algorithms usage was improved through numerous activities and projects that used diverse structures with diverse purposes and algorithms. Their performance capabilities were measured and compared with the big O notation to understand where they are best suited by evaluating the data source type, giving me the tool to recognize immediately when and what tradeoffs I will encounter when choosing a specific structure or algorithm compared to another one. Last but not least, multiple courses were centered around code security and best practices. While taking these courses, my security mindset has significantly grown by understanding the damage a simple mistake or technology misuse can bring. For example, analyzing common design flaws showed me that some programming activities that are sometimes considered superfluous are vital, such as input data sanitization and simple attacks like SQL injections, which can cause massive damage to the targeted business.<br>
+				The project in this portfolio is the simulation of a real advising program for a university that manages the course catalog, the various prerequisites, and the students that use it. Multiple business applications have the same "pattern" with different data, but the underlying techniques and technologies used are the same so that they can be easily adapted to multiple applications like, for example, online ticketing systems, healthcare clinic management, delivery trucks tracking, and much more. The capstone starts with a code review video where I describe the original artifact and identify areas of improvement and the enhancement plan. It includes the base algorithm analysis, such as the Binary Search Tree, error handling, used objects, and methods. Successively, I've dug inside the missed functionalities and possible improvements. This code review showed my ability to analyze sources deeply, identify potential problems, and show solutions aligned with the final targets. It was also an opportunity to show a better ability to comment on the code with meaningful and easily understandable sentences to communicate the intentions of the various parts.<br>
+				Following the initial code review, three steps of improvement were performed in the original code. Each step was aligned with the final intent to bring a simple application to a more professional solution and take advantage of all the modern tools, technologies, and standards appropriate to the desired outcome, such as using JSON data file format and a MongoDB database. The first step centered on moving the current C++ application to a modern language like Phyton, cleaning it up, improving comments, and separating it into reusable modules to follow today's coding best practices. The second step was concentrated around data structure, algorithms, and their performance. The code kept time measurement functionality to understand the performance of the refactored code compared to the original version. Moreover, the dataset was increased to a meaningful size to ensure that the application does not suffer bigger data problems like stack overflows or other issues. Third, the final step was the most important culmination of all the preparative jobs done in the first two. It was a way to demonstrate my capability to align an initially simple application with industry-standard software design by using current techniques widely used in the professional environment. The final result was a more robust and efficient code that moved the data to an external database instead of relying on text files that could suffer accidental cancellation and corruption. All of the three above steps were developed with security in mind, and for each improvement, the code was reevaluated to find possible flaws and apply the best solutions that align with today's coding best practices—starting from validating all the data originating from external sources like the user or the datafile and ensuring that it cannot break the application's safety by injecting malformed or oversized strings. Memory and file resources were carefully used to ensure no code malpractices were present, although Python already does a great job with its automatic garbage collector. Finally, a security mindset was used when saving user passwords in the database and, instead of saving them in plain text, using industry-standard cryptographic algorithms to hash the passwords so, even if the database is corrupted and someone gains unauthorized access to it, all the passwords fields will be useless.<br>
+				It is only the start of my journey, and while choosing computer science, I already know that I'm just beginning my growth trajectory. However, I think I have the correct mindset of a continuous learner to stay on top of new technologies, especially today when AI challenges the future of this field and its participants.
+
+			</p>
+		</section>
+      <section>
+        <h2 class="text-2xl font-bold mb-6 text-indigo-700 text-center">
+          Portfolio Resources
+        </h2>
+
+        <!-- Card Grid for resources links -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+          <!-- Code Review Video -->
+          <a
+            href="https://youtu.be/bJ29PdBD5y4"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-teal-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\video-icon.png"
+			alt="Video Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Code Review Session</h3>
+            <p class="text-sm opacity-80">
+              Plan for modifying and enhancing the original artifact with a walk-through of critical improvements and best practices.
+            </p>
+          </a>
+
+          <!-- Original Artifact -->
+          <a
+            href="https://github.com/gmv-git-hub/cs-capstone-eportfolio/tree/main/CS300%20Source%20Code"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-amber-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\cpp-icon.png"
+			alt="C++ Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">GitHub Repository</h3>
+			<h3 class="text-xl font-semibold mb-2">Original Artifact</h3>
+            <p class="text-sm opacity-80">
+              Project starting point before refactoring &amp; optimization.
+            </p>
+          </a>
+
+          <!-- Improved Artifact -->
+          <a
+            href="https://github.com/gmv-git-hub/cs-capstone-eportfolio/tree/main/ABCU_Advising_Program"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-rose-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\python-icon.png"
+			alt="Python Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">GitHub Repository</h3>
+			<h3 class="text-xl font-semibold mb-2">Improved Artifact</h3>
+            <p class="text-sm opacity-80">
+              Final project with the three applied improvements as described in the narratives.
+            </p>
+          </a>
+
+          <!-- Narrative 1 -->
+          <a
+            href="assets\M2_NarrativeEnOne.pdf"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-indigo-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\pdf-icon.png"
+			alt="PDF Document Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Narrative - Enhancement One</h3>
+            <p class="text-sm opacity-80">
+              Software design and engineering.
+            </p>
+          </a>
+
+          <!-- Narrative 2 -->
+          <a
+            href="assets\M3_NarrativeEnTwo.pdf"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-purple-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\pdf-icon.png"
+			alt="PDF Document Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Narrative - Enhancement Two</h3>
+            <p class="text-sm opacity-80">
+              Algorithms and data structures.
+            </p>
+          </a>
+
+          <!-- Narrative 3 -->
+          <a
+            href="assets\M4_NarrativeEnThree.pdf"
+            target="_blank"
+            class="group relative block overflow-hidden rounded-2xl shadow-lg bg-lime-200 p-6 transition-transform duration-300 hover:-translate-y-1 hover:shadow-2xl"
+          >
+            <img
+			src="assets\pdf-icon.png"
+			alt="PDF Document Icon"
+			class="h-20 w-20 mb-4 mx-auto object-contain"
+			/>
+            <h3 class="text-xl font-semibold mb-2">Narrative - Enhancement Three</h3>
+            <p class="text-sm opacity-80">
+              Databases.
+            </p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-8 text-slate-600 text-sm">
+      <p>
+        © <span id="year"></span> Gianmarco Vendramin – Built using GitHub Pages &amp; Tailwind CSS.
+      </p>
+    </footer>
+
+    <script>
+      // Get current year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
